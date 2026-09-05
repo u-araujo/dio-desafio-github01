@@ -1,11 +1,11 @@
-## Repositório Local
-# Criar novo repositório
+# Repositório Local
+## Criar novo repositório
 git init
 
 # Verificar estado dos arquivos/diretórios#
 git status
 
-## Adicionar arquivo/diretório (staged area)##
+# Adicionar arquivo/diretório (staged area)##
 Adicionar um arquivo em específico
 git add meu_arquivo.txt
 
@@ -29,7 +29,7 @@ git commit meu_arquivo.txt meu_outro_arquivo.txt
 # Comitar informando mensagem#
 git commit meuarquivo.txt -m "minha mensagem de commit"
 
-## Remover arquivo/diretório##
+# Remover arquivo/diretório##
 # Remover arquivo#
 
 git rm meu_arquivo.txt
