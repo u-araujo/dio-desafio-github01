@@ -1,5 +1,5 @@
-##Repositório Local##
-#Criar novo repositório#
+##Repositório Local
+#Criar novo repositório
 git init
 
 #Verificar estado dos arquivos/diretórios#
