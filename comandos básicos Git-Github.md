@@ -14,6 +14,7 @@ git add meu_diretorio
 
 #Adicionar todos os arquivos/diretórios#
 git add .	
+
 #Adicionar um arquivo que esta listado no .gitignore (geral ou do repositório)#
 git add -f arquivo_no_gitignore.txt
 Comitar arquivo/diretório
