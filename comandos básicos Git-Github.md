@@ -2,7 +2,7 @@
 #Criar novo repositório#
 git init
 
-Verificar estado dos arquivos/diretórios
+#Verificar estado dos arquivos/diretórios#
 git status
 
 ##Adicionar arquivo/diretório (staged area)##
