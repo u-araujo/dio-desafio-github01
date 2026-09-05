@@ -1,37 +1,75 @@
-# Repositório Local
-## Criar novo repositório
+# Comandos básicos Git
+
+## Repositório Local
+
+### Criar novo repositório
+
+```bash
 git init
+```
 
-# Verificar estado dos arquivos/diretórios
+### Verificar estado dos arquivos/diretórios
+
+```bash
 git status
+```
 
-# Adicionar arquivo/diretório (staged area)
-Adicionar um arquivo em específico
+## Adicionar arquivo/diretório — Staged Area
+
+### Adicionar um arquivo específico
+
+```bash
 git add meu_arquivo.txt
+```
 
-# Adicionar um diretório em específico
+### Adicionar um diretório específico
+
+```bash
 git add meu_diretorio
+```
 
-# Adicionar todos os arquivos/diretórios
-git add .	
+### Adicionar todos os arquivos/diretórios
 
-# Adicionar um arquivo que esta listado no .gitignore (geral ou do repositório)
+```bash
+git add .
+```
+
+### Adicionar um arquivo listado no `.gitignore`
+
+```bash
 git add -f arquivo_no_gitignore.txt
-Comitar arquivo/diretório
+```
 
-# Comitar um arquivo
+## Commitar arquivo/diretório
+
+### Commitar um arquivo
+
+```bash
 git commit meu_arquivo.txt
+```
 
+### Commitar vários arquivos
 
-# Comitar vários arquivos
+```bash
 git commit meu_arquivo.txt meu_outro_arquivo.txt
+```
 
-# Comitar informando mensagem
-git commit meuarquivo.txt -m "minha mensagem de commit"
+### Commitar informando uma mensagem
 
-# Remover arquivo/diretório
-# Remover arquivo
+```bash
+git commit -m "Minha mensagem de commit"
+```
+
+## Remover arquivo/diretório
+
+### Remover um arquivo
+
+```bash
 git rm meu_arquivo.txt
+```
 
-# Remover diretório#
+### Remover um diretório
+
+```bash
 git rm -r diretorio
+```
